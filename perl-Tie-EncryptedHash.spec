@@ -1,8 +1,7 @@
 Name:           perl-Tie-EncryptedHash
 Version:        1.21
-Release:        %mkrel 3
+Release:        %mkrel 4
 License:        Artistic
-
 %define module  Tie-EncryptedHash
 Group:          Development/Perl
 Summary:        Hashes (and objects based on hashes) with encrypting fields
@@ -36,6 +35,8 @@ modification.
 %build
 CFLAGS="$RPM_OPT_FLAGS" echo | %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
+
+%check
 make test
 
 %install
@@ -44,7 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(-,root,root)
