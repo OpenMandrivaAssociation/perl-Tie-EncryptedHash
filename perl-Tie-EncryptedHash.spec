@@ -8,7 +8,6 @@ Summary:        Hashes (and objects based on hashes) with encrypting fields
 Source0:        ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/%{module}-%{version}.tar.bz2
 Url:            http://search.cpan.org/dist/%{module}
 Prefix:         %{_prefix}
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %if %{mdkversion} < 1010
 Buildrequires:perl-devel
 %endif
@@ -16,7 +15,6 @@ BuildRequires:  perl-Crypt-CBC
 BuildRequires:	perl-Crypt-Blowfish
 BuildRequires:  perl-Crypt-DES
 BuildArch:      noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description 
 Tie::EncryptedHash augments Perl hash semantics to build
