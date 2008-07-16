@@ -1,6 +1,6 @@
 Name:           perl-Tie-EncryptedHash
-Version:        1.21
-Release:        %mkrel 4
+Version:        1.24
+Release:        %mkrel 1
 License:        Artistic
 %define module  Tie-EncryptedHash
 Group:          Development/Perl
