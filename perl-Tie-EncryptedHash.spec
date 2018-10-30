@@ -4,7 +4,7 @@
 Summary:	Hashes (and objects based on hashes) with encrypting fields
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	17
+Release:	18
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
