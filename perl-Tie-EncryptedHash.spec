@@ -3,12 +3,12 @@
 
 Summary:	Hashes (and objects based on hashes) with encrypting fields
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	18
+Version:	%{modver}
+Release:	19
 License:	Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/%{modname}-%{modver}.tar.bz2
+Url:		https://metacpan.org/dist/Tie-EncryptedHash
+Source0:	https://cpan.metacpan.org/authors/id/V/VI/VIPUL/Tie-EncryptedHash-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
